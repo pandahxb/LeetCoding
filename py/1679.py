@@ -19,3 +19,5 @@ class Solution:
             else:
                 right -= 1
         return op
+
+# Time: O(nlogn), Space: O(1)
