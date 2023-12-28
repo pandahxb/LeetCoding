@@ -13,3 +13,5 @@ class Solution:
                 currentVowels += 1
             maxVowels = max(maxVowels, currentVowels)
         return maxVowels
+
+# Time: O(n), Space: O(1)
