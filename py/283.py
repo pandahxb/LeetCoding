@@ -10,3 +10,5 @@ class Solution:
         non_zeroes = [num for num in nums if num != 0]
         non_zeroes.extend([0] * zeroes)
         nums[:] = non_zeroes
+
+# Time: O(n), Space: O(n)
