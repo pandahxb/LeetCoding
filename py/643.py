@@ -8,3 +8,5 @@ class Solution:
             currentSum += nums[i - 1 + k] - nums[i - 1]
             maxSum = max(maxSum, currentSum)
         return maxSum / k
+
+# Time: O(n), Space: O(1)
