@@ -18,3 +18,5 @@ class Solution:
                     chars[j] = digit
                     j += 1
         return j
+
+# Time: O(n), Space: O(1)
