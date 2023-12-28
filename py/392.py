@@ -10,3 +10,5 @@ class Solution:
                 if i == length:
                     return True
         return False
+
+# Time: O(n), Space: O(1)
