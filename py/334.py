@@ -13,3 +13,5 @@ class Solution:
             elif nums[i] > nums[first]:
                 second = i
         return False
+
+# Time: O(n), Space: O(1)
