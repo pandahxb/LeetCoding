@@ -18,4 +18,4 @@ class Solution:
             return [0 if i != zero_index else product for i in range(len(nums))]  # O(n)
         return [product // nums[i] for i in range(len(nums))]  # O(n)
 
-    # Time: O(n); Space: O(1)
+# Time: O(n), Space: O(1)

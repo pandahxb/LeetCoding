@@ -6,4 +6,4 @@ class Solution:
         max_candies = max(candies)
         return [candy + extraCandies >= max_candies for candy in candies]  # O(n)
 
-    # Time: O(n); Space: O(n)
+# Time: O(n), Space: O(n)

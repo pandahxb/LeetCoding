@@ -13,4 +13,4 @@ class Solution:
                 left += 1
         return right - left + 1
 
-# Time: O(n); Space: O(1)
+# Time: O(n), Space: O(1)

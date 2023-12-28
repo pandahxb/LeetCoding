@@ -9,4 +9,4 @@ class Solution:
             result.append(word2[len(word1):])
         return ''.join(result)
 
-    # Time: O(n); Space: O(n)
+# Time: O(n), Space: O(n)

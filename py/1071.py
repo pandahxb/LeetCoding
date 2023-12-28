@@ -5,4 +5,4 @@ class Solution:
         from math import gcd
         return str1[:gcd(len(str1), len(str2))]  # O(n)
 
-    # Time: O(n); Space: O(n)
+# Time: O(n), Space: O(n)
