@@ -13,3 +13,5 @@ class Solution:
             else:
                 right -= 1
         return maxArea
+
+# Time: O(n), Space: O(1)
