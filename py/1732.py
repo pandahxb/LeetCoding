@@ -8,3 +8,5 @@ class Solution:
             current += gain[i]
             highest = max(highest, current)
         return highest
+
+# Time: O(n), Space: O(1)
