@@ -12,8 +12,8 @@ class Solution:
         #     return True
         # return False
 
-        # return (sorted(Counter(word1).values()) == sorted(Counter(word2).values()) and set(Counter(word1).keys()) ==
-        #         set(Counter(word2).keys()))
+        # return (set(Counter(word1).keys()) == set(Counter(word2).keys()) and sorted(Counter(word1).values()) ==
+        #         sorted(Counter(word2).values()))
 
         return set(word1) == set(word2) and Counter(Counter(word1).values()) == Counter(Counter(word2).values())
 
